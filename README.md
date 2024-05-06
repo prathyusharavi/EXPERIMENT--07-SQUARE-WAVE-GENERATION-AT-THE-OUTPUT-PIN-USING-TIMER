@@ -248,8 +248,7 @@ void assert_failed(uint8_t *file, uint32_t line)
 ### FOR PULSE AT 900
 ![pluse at 900](https://github.com/deepikasrinivasans/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/119393935/cb3e3137-98dc-46ac-9425-00a70bb041ff)
 ## DUTY CYCLE AND FREQUENCY CALCULATION
-```
- FOR PULSE AT 2500
+ ## FOR PULSE AT 2500
 
 TON = 3*50 = 150 * 10^-6
 TOFF = 9*50 = 450 * 10^-6
@@ -257,7 +256,7 @@ TOTAL TIME = 600
 FREQUENCY = 1/600 = 0.00166 = 1.6 KHZ
 Duty Cycle % = (150/600)*100 = 25%
 
-FOR PULSE AT 5000
+## FOR PULSE AT 5000
 
 TON = 6*50 = 300 * 10^-6
 TOFF= 6*50 = 300 * 10^-6
@@ -265,7 +264,7 @@ TOTAL TIME = 600
 FREQUENCY = 1/600 = 0.00166 = 1.6 KHZ
 Duty Cycle % = (300/600)*100 = 50%
 
-FOR PULSE AT 7500
+## FOR PULSE AT 7500
 
 TON = 9*50 = 450 * 10^-6
 TOFF= 3*50 = 150 * 10^-6
@@ -273,8 +272,29 @@ TOTAL TIME = 600
 FREQUENCY = 1/600 = 0.00166 = 1.6 KHZ
 Duty Cycle % = (450/600)*100 = 75%
 
-## Result :
+## FOR PULSE AT 2500
+
+TON = 3*50 = 150 * 10^-6
+TOFF = 9*50 = 450 * 10^-6
+TOTAL TIME = 600
+FREQUENCY = 1/600 = 0.00166 = 1.6 KHZ
+Duty Cycle % = (150/600)*100 = 25%
+
+## FOR PULSE AT 5000
+
+TON = 6*50 = 300 * 10^-6
+TOFF= 6*50 = 300 * 10^-6
+TOTAL TIME = 600
+FREQUENCY = 1/600 = 0.00166 = 1.6 KHZ
+Duty Cycle % = (300/600)*100 = 50%
+
+## RESULT 
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
+
+![image](https://github.com/prathyusharavi/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/147474424/15c2cdd8-cd3b-4e6d-bcf7-0ea96886d57f)
+
+
+
 
 
 
