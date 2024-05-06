@@ -232,40 +232,46 @@ void assert_failed(uint8_t *file, uint32_t line)
  
 }
 ```
-## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
-![WhatsApp Image 2023-05-30 at 7 04 32 PM](https://github.com/deepikasrinivasans/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/119393935/c526215c-9553-4fa2-9d73-31c9881b2969)
 ## Output screen shots of proteus  :
-## DUTY CYCLE AND FREQUENCY CALCULATION 
+![image](https://github.com/prathyusharavi/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/147474424/c45fa7b9-47c9-41e8-b707-287fc87ab7e9)
+## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
+![image](https://github.com/prathyusharavi/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/147474424/88cc46a6-87fe-4f8f-9faf-318f45715984)
+
+## Screen shots of Digital Oscilloscope:
 ### FOR PULSE AT 500
 ![pluse at 500](https://github.com/deepikasrinivasans/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/119393935/238e18fc-02ba-45b3-98ae-ec6061ee7696)
-```
-TON = 8
-TOFF= 8
-TOTAL TIME = 16
-FREQUENCY = 1/(TOTAL TIME)
-FREQUENCY = 62.5Hz
-```
 
-### FOR PULSE AT 800
+### FOR PULSE AT 800![WhatsApp Image 2023-05-30 at 7 04 32 PM](https:
 ![pluse at 800](https://github.com/deepikasrinivasans/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/119393935/bf27ce41-2aa4-4eee-821c-038c419b06fd)
-```
-TON = 13
-TOFF= 3
-TOTAL TIME = 16
-FREQUENCY = 1/(TOTAL TIME)
-FREQUENCY = 62.5Hz
-```
+
 
 ### FOR PULSE AT 900
 ![pluse at 900](https://github.com/deepikasrinivasans/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/119393935/cb3e3137-98dc-46ac-9425-00a70bb041ff)
+## DUTY CYCLE AND FREQUENCY CALCULATION
 ```
-TON = 14
-TOFF= 2
-TOTAL TIME = 16
-FREQUENCY = 1/(TOTAL TIME)
-FREQUENCY = 62.5Hz
-```
+ FOR PULSE AT 2500
 
+TON = 3*50 = 150 * 10^-6
+TOFF = 9*50 = 450 * 10^-6
+TOTAL TIME = 600
+FREQUENCY = 1/600 = 0.00166 = 1.6 KHZ
+Duty Cycle % = (150/600)*100 = 25%
+
+FOR PULSE AT 5000
+
+TON = 6*50 = 300 * 10^-6
+TOFF= 6*50 = 300 * 10^-6
+TOTAL TIME = 600
+FREQUENCY = 1/600 = 0.00166 = 1.6 KHZ
+Duty Cycle % = (300/600)*100 = 50%
+
+FOR PULSE AT 7500
+
+TON = 9*50 = 450 * 10^-6
+TOFF= 3*50 = 150 * 10^-6
+TOTAL TIME = 600
+FREQUENCY = 1/600 = 0.00166 = 1.6 KHZ
+Duty Cycle % = (450/600)*100 = 75%
 
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
